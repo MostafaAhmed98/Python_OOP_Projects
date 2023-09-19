@@ -2,18 +2,6 @@
 
 The Hospital Patient Queue Management System is a Python-based command-line application designed to manage patient queues in a hospital. It utilizes object-oriented programming (OOP) principles and includes three main classes: `Patient`, `Specialization`, and `OperationsManager`. This project provides a simple yet effective way to handle patient data and queue management within a hospital setting.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Example](#example)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Introduction
-
 The Hospital Patient Queue Management System is an illustration of OOP concepts in Python. It consists of three primary classes, each serving a specific purpose:
 
 ### Patient
