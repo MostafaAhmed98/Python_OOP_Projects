@@ -6,6 +6,30 @@ The Library Management System is a Python-based command-line application designe
 
 The Library Management System simplifies library tasks through a user-friendly interface. It includes three main classes:
 
+**Example Usage:**
+
+```
+Program Options:
+ 1) Add book
+ 2) Print library books
+ 3) Print books by prefix
+ 4) Add user
+ 5) Borrow book
+ 6) Return book
+ 7) Print users borrowed book
+ 8) Print users
+
+Enter your choice from 1 to 8: 1
+
+Please Enter the book id: 100
+Please Enter the book name: The Lord of the Rings
+Please Enter the book quantity: 3
+
+Book is added successfully!
+
+(Continue using the menu to manage your library...)
+```
+
 ### Book
 The `Book` class represents a book in the library and includes the following attributes:
 
@@ -40,26 +64,4 @@ The `Admin` class manages the library system and provides various functionalitie
 - **Track Borrowers**: Keep track of users who have borrowed books.
 - **User Interface**: Simple command-line interface for user interaction.
 
-**Example Usage:**
 
-```
-Program Options:
- 1) Add book
- 2) Print library books
- 3) Print books by prefix
- 4) Add user
- 5) Borrow book
- 6) Return book
- 7) Print users borrowed book
- 8) Print users
-
-Enter your choice from 1 to 8: 1
-
-Please Enter the book id: 100
-Please Enter the book name: The Lord of the Rings
-Please Enter the book quantity: 3
-
-Book is added successfully!
-
-(Continue using the menu to manage your library...)
-```
